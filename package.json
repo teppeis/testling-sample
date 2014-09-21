@@ -1,12 +1,26 @@
 {
   "name": "testling-sample",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "sample code for testling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/*.js"
   },
-  "author": "teppeis",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/latest",
+      "firefox/latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "author": "Teppei Sato <teppeis@gmail.com>",
+  "repository": "https://github.com/teppeis/testling-sample",
   "license": "MIT",
   "devDependencies": {
     "tape": "^3.0.0"
