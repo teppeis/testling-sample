@@ -9,13 +9,11 @@
   "testling": {
     "files": "test/*.js",
     "browsers": [
-      "ie/6..latest",
+      "ie/8..latest",
       "chrome/latest",
       "firefox/latest",
       "safari/latest",
-      "opera/11.0..latest",
-      "iphone/6",
-      "ipad/6",
+      "iphone/7",
       "android-browser/latest"
     ]
   },
