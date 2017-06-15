@@ -21,6 +21,6 @@
   "repository": "https://github.com/teppeis/testling-sample",
   "license": "MIT",
   "devDependencies": {
-    "tape": "^3.0.0"
+    "tape": "^4.6.3"
   }
 }
